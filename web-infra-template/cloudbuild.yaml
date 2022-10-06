@@ -6,7 +6,7 @@ steps:
   args:
   - 'apply'
   - '-f'
-  - 'base'
+  - 'web-infra-template/base'
   env:
   - 'CLOUDSDK_COMPUTE_REGION=us-central1'
   - 'CLOUDSDK_CONTAINER_CLUSTER=web-infra-cluster'
