@@ -6,12 +6,10 @@ metadata:
     kubernetes.io/ingress.class: gce
 spec:
   rules:
-    - http:
-        paths:
-          - path: /api
-            backend:
-              service:
-                - name: backend-service
-                  port: 
-                    - number: 80
+  - http:
+      paths:
+      - path: /api
+        backend:
+          serviceName: backend-service
+          servicePort: 80
     
