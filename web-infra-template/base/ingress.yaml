@@ -6,7 +6,7 @@ metadata:
     kubernetes.io/ingress.class: gce
 spec:
   rules:
-    http:
+    - http:
       paths:
         - path: /api
           backend:
