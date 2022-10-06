@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Ingress
+metadata:
+  name: web-ingress
+spec:
+  rules:
+    http:
+      paths:
+        - path: /api
+          backend:
+            serviceName: backend-service
+            servicePort: 80
+    
