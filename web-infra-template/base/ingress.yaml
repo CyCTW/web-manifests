@@ -8,8 +8,10 @@ spec:
   rules:
   - http:
       paths:
-      - path: /api
+      - path: /
+        pathType: ImplementationSpecific
         backend:
-          serviceName: backend-service
-          servicePort: 80
-    
+          service:
+            name: backend-service
+            port:
+              number: 8080
