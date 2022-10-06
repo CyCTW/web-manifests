@@ -3,7 +3,7 @@ kind: Kustomization
 
 images:
 - name: us-central1-docker.pkg.dev/high-apricot-364413/web-infra-template/backend
-  newTag: latest
+  newTag: 37229f9
 
 resources:
 - ingress.yaml
