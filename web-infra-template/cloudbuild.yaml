@@ -5,8 +5,9 @@ steps:
   id: Deploy
   args:
   - 'apply'
-  - '-f'
-  - 'web-infra-template/base'
+  - '-k'
+  - 'base'
+  dir: 'web-infra-template'
   env:
   - 'CLOUDSDK_COMPUTE_REGION=us-central1'
   - 'CLOUDSDK_CONTAINER_CLUSTER=web-infra-cluster'
