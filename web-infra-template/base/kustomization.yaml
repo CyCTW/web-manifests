@@ -3,7 +3,7 @@ kind: Kustomization
 
 images:
 - name: us-central1-docker.pkg.dev/high-apricot-364413/web-infra-template/backend
-  newTag: df36110
+  newTag: 2e57108
 - name: us-central1-docker.pkg.dev/high-apricot-364413/web-infra-template/frontend
   newTag: df36110
   
