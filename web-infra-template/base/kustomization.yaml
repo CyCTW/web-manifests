@@ -10,3 +10,4 @@ images:
 resources:
 - ingress.yaml
 - backend.yaml
+- frontend.yaml
