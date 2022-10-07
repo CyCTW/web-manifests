@@ -5,7 +5,7 @@ images:
 - name: us-central1-docker.pkg.dev/high-apricot-364413/web-infra-template/backend
   newTag: df36110
 - name: us-central1-docker.pkg.dev/high-apricot-364413/web-infra-template/frontend
-  newTag: latest
+  newTag: df36110
   
 resources:
 - ingress.yaml
